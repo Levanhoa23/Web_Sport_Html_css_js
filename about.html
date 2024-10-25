@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+    <meta charset="utf-8" />
+    <title>Hoa-Sports</title>
+    <link rel="icon" href="./assets/img/logo.png" type="image/png" />
+
+   <!-- Các liên kết đến tệp CSS -->
+   <link rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+<link rel="stylesheet" href="./assets/css/style.css"/>
+  </link>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> groco</a>
+      <nav class="navbar">
+                      <a href="index.html">home</a>
+                      <a href="shop.html">shop</a>
+                      <a href="blog.html">blog</a>
+                      <a href="about.html">about</a>
+                      <a href="contact.html">contact</a>
+                    </nav>
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <!-- Đã sửa ID -->
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="./assets/images/1.jpg" />
+          <div class="content">
+            <h3>Giày Nike</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty:1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="./assets/images/1.jpg" />
+          <div class="content">
+            <h3>Giày Nike</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty:1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="./assets/images/1.jpg" />
+          <div class="content">
+            <h3>Giày Nike</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty:1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="./assets/images/1.jpg" />
+          <div class="content">
+            <h3>Giày Nike</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty:1</span>
+          </div>
+        </div>
+
+        <div class="total">total: $19.69/-</div>
+        <a href="#" class="btn">check out</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>Đăng Nhập Ngay</h3>
+        <input type="email" placeholder="Email của bạn..." class="box" />
+        <input type="password" placeholder="Mật khẩu của bạn..." class="box" />
+        <p>Quên mật khẩu?<a href="#"> Nhấp vào đây</a></p>
+        <p>Không có tài khoản? <a href="#" id="register-link">Tạo tài khoản ngay</a></p>
+        <button type="submit" class="btn">Đăng Nhập</button>
+        <!-- Đã sửa -->
+      </form>
+
+      <form action="" class="register-form" style="display:none;">
+        <h3>Tạo Tài Khoản Mới</h3>
+        <input type="text" placeholder="Tên của bạn..." class="box" />
+        <input type="email" placeholder="Email của bạn..." class="box" autocomplete="new-email" />
+        <input type="password" placeholder="Tạo mật khẩu..." class="box" autocomplete="new-password" />
+        <input type="password" placeholder="Nhập lại mật khẩu..." class="box" />
+        <button type="submit" class="btn">Đăng Ký</button>
+        <p>Đã có tài khoản? <a href="#" id="login-link">Đăng nhập ngay</a></p>
+      </form>
+    </header>
+    <!-- heder section ends -->
+    <!-- home section starts -->
+    <section class="About" id="About">
+      <div class="content">
+        <h3>fresh and<span>organic</span>products for your</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisincing elit. Aliquam
+          libero nostrum veniam facere tepore nisi.
+        </p>
+        <a href="shop.html" class="btn">shop now</a>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+
+     <!-- features section starts -->
+     <section class="features" id="features">
+      <h1 class="heading">our <span>features </span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./assets/img/freeship.jpg" />
+          <h3>fresh and organic</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="./assets/img/easypay.jpg" />
+          <h3>fresh and organic</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil enim
+            odio dolores iste veniam vitae,
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="./assets/img/sale.jpg" />
+          <h3>fresh and organic</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil enim
+            odio dolores iste veniam vitae,
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </section>
+    <!-- features section ends -->  
+   
+<!-- About -->
+<div class="content-About">
+                      <h3>Giới Thiệu Về Cửa Hàng Hoa-Sports</h3>
+                      <img src="./assets/img/banner2.jpg" alt="Cửa hàng Hoa-Sports" class="store-image">
+                      
+                      <p>- Chào mừng bạn đến với Hoa-Sports, nơi mang đến cho bạn không chỉ sản phẩm thể thao chất lượng mà còn là trải nghiệm mua sắm tuyệt vời. Tọa lạc tại trung tâm thành phố, cửa hàng của chúng tôi cung cấp một loạt các sản phẩm thể thao từ giày dép, quần áo, dụng cụ tập luyện đến phụ kiện thể thao. Chúng tôi tự hào là địa chỉ tin cậy cho những người đam mê thể thao và chăm sóc sức khỏe.</p>
+                      
+                      <p>- Tại Hoa-Sports, chúng tôi hiểu rằng thể thao không chỉ là một hoạt động, mà còn là một phong cách sống. Với mục tiêu phục vụ nhu cầu của mọi đối tượng từ người mới bắt đầu cho đến các vận động viên chuyên nghiệp, chúng tôi cung cấp các sản phẩm đa dạng với mức giá hợp lý. Đội ngũ nhân viên của chúng tôi không chỉ có kinh nghiệm mà còn đam mê thể thao, luôn sẵn sàng tư vấn và giúp bạn chọn lựa sản phẩm phù hợp nhất.</p>
+                      
+                      <h2>Sản Phẩm Đa Dạng</h2>
+                      <p>- Chúng tôi cung cấp các sản phẩm của những thương hiệu hàng đầu trên thế giới, đảm bảo rằng mọi sản phẩm đều đạt tiêu chuẩn chất lượng cao nhất. Từ giày chạy bộ đến quần áo tập gym, từ bóng đá đến bơi lội, chúng tôi có tất cả những gì bạn cần để nâng cao hiệu suất thể thao của mình. Các sản phẩm của chúng tôi đều được lựa chọn kỹ lưỡng, đáp ứng nhu cầu về chất lượng, tính năng và thời trang.</p>
+              
+                      <p>- Bên cạnh đó, chúng tôi cũng cung cấp các sản phẩm chăm sóc sức khỏe, từ máy chạy bộ đến các thiết bị tập thể dục tại nhà. Hoa-Sports cam kết mang đến cho bạn sự lựa chọn hoàn hảo để giúp bạn duy trì sức khỏe và thể lực tốt nhất. Đừng ngần ngại đến cửa hàng để trải nghiệm và chọn cho mình những sản phẩm ưng ý!</p>
+                      
+                      <h2> Dịch Vụ Khách Hàng Tuyệt Vời</h2>
+                      <p>- Chúng tôi cam kết mang đến dịch vụ khách hàng tốt nhất. Đội ngũ nhân viên của chúng tôi không chỉ am hiểu về sản phẩm mà còn luôn sẵn sàng hỗ trợ bạn trong mọi thắc mắc. Với chính sách đổi trả linh hoạt và dịch vụ giao hàng nhanh chóng, bạn hoàn toàn có thể yên tâm khi mua sắm tại Hoa-Sports.</p>
+              
+                      <p>- Chúng tôi cũng thường xuyên tổ chức các sự kiện thể thao và chương trình khuyến mãi hấp dẫn, nhằm tạo ra một không khí thể thao sôi động và gắn kết cộng đồng. Đến với Hoa-Sports, bạn không chỉ đơn thuần là mua sắm, mà còn có cơ hội tham gia vào các hoạt động thú vị và gặp gỡ những người có cùng đam mê.</p>
+                      
+                      <h2>Tầm Nhìn Và Sứ Mệnh</h2>
+                      <p>- Hoa-Sports không chỉ là một cửa hàng bán lẻ, mà còn là một cộng đồng của những người yêu thể thao. Chúng tôi tin rằng thể thao là phương tiện tuyệt vời để kết nối mọi người và nâng cao sức khỏe. Sứ mệnh của chúng tôi là khuyến khích mọi người tham gia vào các hoạt động thể chất, từ đó cải thiện sức khỏe và tinh thần.</p>
+              
+                      <p>- Chúng tôi luôn nỗ lực để tạo ra một môi trường thân thiện và hỗ trợ, nơi mọi người đều có thể tìm thấy niềm vui và sự động viên trong việc luyện tập thể dục thể thao. Hãy đến với Hoa-Sports để trải nghiệm những sản phẩm và dịch vụ tuyệt vời mà chúng tôi mang lại. Chúng tôi luôn chào đón bạn!</p>
+                  </div>
+
+    <!-- footer section starts -->
+    <section class="footer">
+      <div class="box-container">
+
+        <div class="box">
+          <h3>groco<i class="fas fa-shopping-basket"></i></h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aspernatur ut</p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      
+      </div>
+
+      <div class="box">
+        <h3>contact info </h3>
+        <a href="#" class="links"><i class="fas fa-phone"></i>+8468686868</a>
+        <a href="#" class="links"><i class="fas fa-phone"></i>+8468686868</a>
+        <a href="#" class="links"><i class="fas fa-envelope"></i>levh2322004@gmail.com</a>
+        <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>mumbai, VietNam-999999</a>
+    </div>
+
+    <div class="box">
+      <h3>quicks links </h3>
+      <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+      <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+      <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+      <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+      <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+      <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a> 
+    </div>
+
+    <div class="box">
+      <h3>newsletter </h3>
+      <p>subscribe for latest updates</p>
+      <input type ="email" placeholder="your email" class="email">
+      <input type ="submit" placeholder="subscribe" class="btn">
+      <img src="./assets/img/visa.png" class="payment-img">
+      <img src="./assets/img/am.png" class="payment-img">
+      <img src="./assets/img/th.jpg" class="payment-img">
+      <img src="./assets/img/may.png" class="payment-img">
+    </div>
+    </div>
+    <div class="credit">create by <span>Hoa-Sports</span> | all rights reverved </div>
+    </section>
+    <!-- footer section ends -->
+   <!-- Liên kết đến tệp JavaScript -->
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="./assets/javascript/script.js"></script>
+  </body>
+</html>
